@@ -1,0 +1,4 @@
+C:\Users\dinesh.venkatachalam\Source\Workspaces\School.WebServices\School.Web.Api\School.Domain\bin\Debug\School.Domain.dll
+C:\Users\dinesh.venkatachalam\Source\Workspaces\School.WebServices\School.Web.Api\School.Domain\bin\Debug\School.Domain.pdb
+C:\Users\dinesh.venkatachalam\Source\Workspaces\School.WebServices\School.Web.Api\School.Domain\obj\Debug\School.Domain.dll
+C:\Users\dinesh.venkatachalam\Source\Workspaces\School.WebServices\School.Web.Api\School.Domain\obj\Debug\School.Domain.pdb
