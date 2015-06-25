@@ -1,0 +1,5 @@
+C:\Users\dinesh.venkatachalam\Source\Workspaces\SchoolPortal\Web Applications\SchoolPortal\SchoolPortal.Domain.Models\bin\Debug\SchoolPortal.Domain.Models.dll
+C:\Users\dinesh.venkatachalam\Source\Workspaces\SchoolPortal\Web Applications\SchoolPortal\SchoolPortal.Domain.Models\bin\Debug\SchoolPortal.Domain.Models.pdb
+C:\Users\dinesh.venkatachalam\Source\Workspaces\SchoolPortal\Web Applications\SchoolPortal\SchoolPortal.Domain.Models\obj\Debug\SchoolPortal.Domain.Model.csprojResolveAssemblyReference.cache
+C:\Users\dinesh.venkatachalam\Source\Workspaces\SchoolPortal\Web Applications\SchoolPortal\SchoolPortal.Domain.Models\obj\Debug\SchoolPortal.Domain.Models.dll
+C:\Users\dinesh.venkatachalam\Source\Workspaces\SchoolPortal\Web Applications\SchoolPortal\SchoolPortal.Domain.Models\obj\Debug\SchoolPortal.Domain.Models.pdb

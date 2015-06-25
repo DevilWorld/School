@@ -1,0 +1,10 @@
+C:\Users\dinesh.venkatachalam\Source\Workspaces\SchoolPortal\Web Applications\SchoolPortal\SchoolPortal.Entities\bin\Debug\SchoolPortal.Entities.dll.config
+C:\Users\dinesh.venkatachalam\Source\Workspaces\SchoolPortal\Web Applications\SchoolPortal\SchoolPortal.Entities\bin\Debug\SchoolPortal.Entities.dll
+C:\Users\dinesh.venkatachalam\Source\Workspaces\SchoolPortal\Web Applications\SchoolPortal\SchoolPortal.Entities\bin\Debug\SchoolPortal.Entities.pdb
+C:\Users\dinesh.venkatachalam\Source\Workspaces\SchoolPortal\Web Applications\SchoolPortal\SchoolPortal.Entities\bin\Debug\EntityFramework.dll
+C:\Users\dinesh.venkatachalam\Source\Workspaces\SchoolPortal\Web Applications\SchoolPortal\SchoolPortal.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dinesh.venkatachalam\Source\Workspaces\SchoolPortal\Web Applications\SchoolPortal\SchoolPortal.Entities\bin\Debug\EntityFramework.xml
+C:\Users\dinesh.venkatachalam\Source\Workspaces\SchoolPortal\Web Applications\SchoolPortal\SchoolPortal.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dinesh.venkatachalam\Source\Workspaces\SchoolPortal\Web Applications\SchoolPortal\SchoolPortal.Entities\obj\Debug\SchoolPortal.Entities.csprojResolveAssemblyReference.cache
+C:\Users\dinesh.venkatachalam\Source\Workspaces\SchoolPortal\Web Applications\SchoolPortal\SchoolPortal.Entities\obj\Debug\SchoolPortal.Entities.dll
+C:\Users\dinesh.venkatachalam\Source\Workspaces\SchoolPortal\Web Applications\SchoolPortal\SchoolPortal.Entities\obj\Debug\SchoolPortal.Entities.pdb

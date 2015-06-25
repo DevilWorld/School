@@ -1,0 +1,30 @@
+﻿@using GridMvc.Html
+@model IEnumerable<SchoolPortal.Domain.Models.Person>
+
+@{
+    ViewBag.Title = "GetAllStudents";
+}
+
+<script src="@Url.Content("../Scripts/gridmvc.min.js")"></script>
+
+<h2>GetAllStudents</h2>
+
+@{
+    var grid = new WebGrid();
+}
+
+<div id="grdStudents">
+    @Html.Grid(Model).Columns(columns =>
+    {
+        columns.Add(c => c.FirstName).Titled("First Name");
+        columns.Add(c => c.LastName).Titled("Last Name");
+        columns.Add(c => c.MiddleName).Titled("Middle Name");
+        columns.Add(c => c.Dob).Titled("DOB");
+        columns.Add(c => c.Sex).Titled("Sex");
+        columns.Add(c => c.Address).Titled("Address");
+        columns.Add(c => c.City).Titled("City");
+        columns.Add(c => c.State).Titled("State");
+        columns.Add(c => c.Zip).Titled("Zip");
+    })
+    
+    </div>
