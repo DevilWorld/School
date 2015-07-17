@@ -8,3 +8,12 @@ C:\Users\dinesh.venkatachalam\Source\Workspaces\SchoolPortal\Web Applications\Sc
 C:\Users\dinesh.venkatachalam\Source\Workspaces\SchoolPortal\Web Applications\SchoolPortal\SchoolPortal.Entities\obj\Debug\SchoolPortal.Entities.csprojResolveAssemblyReference.cache
 C:\Users\dinesh.venkatachalam\Source\Workspaces\SchoolPortal\Web Applications\SchoolPortal\SchoolPortal.Entities\obj\Debug\SchoolPortal.Entities.dll
 C:\Users\dinesh.venkatachalam\Source\Workspaces\SchoolPortal\Web Applications\SchoolPortal\SchoolPortal.Entities\obj\Debug\SchoolPortal.Entities.pdb
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\SchoolPortal.Entities\bin\Debug\SchoolPortal.Entities.dll.config
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\SchoolPortal.Entities\bin\Debug\SchoolPortal.Entities.dll
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\SchoolPortal.Entities\bin\Debug\SchoolPortal.Entities.pdb
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\SchoolPortal.Entities\bin\Debug\EntityFramework.dll
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\SchoolPortal.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\SchoolPortal.Entities\bin\Debug\EntityFramework.xml
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\SchoolPortal.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\SchoolPortal.Entities\obj\Debug\SchoolPortal.Entities.dll
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\SchoolPortal.Entities\obj\Debug\SchoolPortal.Entities.pdb

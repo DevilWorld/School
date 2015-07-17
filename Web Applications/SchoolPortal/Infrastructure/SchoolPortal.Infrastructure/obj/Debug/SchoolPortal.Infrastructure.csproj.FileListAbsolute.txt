@@ -12,3 +12,17 @@ C:\Users\dinesh.venkatachalam\Source\Workspaces\SchoolPortal\Web Applications\Sc
 C:\Users\dinesh.venkatachalam\Source\Workspaces\SchoolPortal\Web Applications\SchoolPortal\Infrastructure\SchoolPortal.Infrastructure\obj\Debug\SchoolPortal.Infrastructure.csprojResolveAssemblyReference.cache
 C:\Users\dinesh.venkatachalam\Source\Workspaces\SchoolPortal\Web Applications\SchoolPortal\Infrastructure\SchoolPortal.Infrastructure\obj\Debug\SchoolPortal.Infrastructure.dll
 C:\Users\dinesh.venkatachalam\Source\Workspaces\SchoolPortal\Web Applications\SchoolPortal\Infrastructure\SchoolPortal.Infrastructure\obj\Debug\SchoolPortal.Infrastructure.pdb
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\Infrastructure\SchoolPortal.Infrastructure\obj\Debug\SchoolPortal.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\Infrastructure\SchoolPortal.Infrastructure\bin\Debug\SchoolPortal.Infrastructure.dll.config
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\Infrastructure\SchoolPortal.Infrastructure\bin\Debug\SchoolPortal.Infrastructure.dll
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\Infrastructure\SchoolPortal.Infrastructure\bin\Debug\SchoolPortal.Infrastructure.pdb
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\Infrastructure\SchoolPortal.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\Infrastructure\SchoolPortal.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\Infrastructure\SchoolPortal.Infrastructure\bin\Debug\SchoolPortal.Domain.dll
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\Infrastructure\SchoolPortal.Infrastructure\bin\Debug\SchoolPortal.Domain.Models.dll
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\Infrastructure\SchoolPortal.Infrastructure\bin\Debug\SchoolPortal.Domain.pdb
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\Infrastructure\SchoolPortal.Infrastructure\bin\Debug\SchoolPortal.Domain.Models.pdb
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\Infrastructure\SchoolPortal.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\Infrastructure\SchoolPortal.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\Infrastructure\SchoolPortal.Infrastructure\obj\Debug\SchoolPortal.Infrastructure.dll
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\Infrastructure\SchoolPortal.Infrastructure\obj\Debug\SchoolPortal.Infrastructure.pdb
