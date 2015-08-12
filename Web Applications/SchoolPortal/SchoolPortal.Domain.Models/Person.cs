@@ -24,6 +24,6 @@ namespace SchoolPortal.Domain.Models
         public DateTime? ModifiedDate { get; set; }
 
         //Navigation Properties
-        public virtual ICollection<Enrollment> Enrollments { get; set; }
+        //public virtual ICollection<Enrollment> Enrollments { get; set; }
     }
 }

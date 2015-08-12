@@ -78,3 +78,4 @@ C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\SchoolPortal.T
 C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\SchoolPortal.Tests\obj\Debug\SchoolPortal.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\SchoolPortal.Tests\obj\Debug\SchoolPortal.Tests.dll
 C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\SchoolPortal.Tests\obj\Debug\SchoolPortal.Tests.pdb
+C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\SchoolPortal.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll

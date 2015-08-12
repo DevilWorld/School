@@ -3,6 +3,8 @@ using System.Web.Mvc;
 using SchoolPortal.Domain.Models;
 using SchoolPortal.Domain.Repository;
 using SchoolPortal.Infrastructure.Repository;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 
 namespace SchoolPortal.Controllers
 {
@@ -13,6 +15,11 @@ namespace SchoolPortal.Controllers
         public StudentController()
         {
             _repo = new StudentRepository();
+        }
+
+        public ActionResult GetAllStudents()
+        {
+            return View();
         }
 
         //
@@ -32,11 +39,17 @@ namespace SchoolPortal.Controllers
         }
 
         [HttpGet]
-        public ActionResult GetAllStudents()
+        public ActionResult GetStudentDetails()
         {
-            var students = _repo.GetAllStudents();
-
-            return View(students);
+            var settings = new JsonSerializerSettings { ContractResolver = new CamelCasePropertyNamesContractResolver() };
+                        
+            var jsonResult = new ContentResult
+            {
+                Content = JsonConvert.SerializeObject(_repo.GetAllStudents(), settings),
+                ContentType = "application/json"
+            };
+            
+            return jsonResult;
         }
     }
 }

@@ -1,32 +1,38 @@
-﻿@using GridMvc.Html
-@model IEnumerable<SchoolPortal.Domain.Models.Person>
+﻿@model IEnumerable<SchoolPortal.Domain.Models.Person>
 
-@{
-    ViewBag.Title = "GetAllStudents";
-}
+@*@{
+        ViewBag.Title = "GetAllStudents";
+    }*@
 
-<script src="@Url.Content("../Scripts/gridmvc.min.js")"></script>
+<!DOCTYPE html>
 
-<h2>GetAllStudents</h2>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Test Page</title>
 
-<div ng-app></div>
 
-@{
-    var grid = new WebGrid();
-}
 
-<div id="grdStudents">
-    @Html.Grid(Model).Columns(columns =>
-    {
-        columns.Add(c => c.FirstName).Titled("First Name");
-        columns.Add(c => c.LastName).Titled("Last Name");
-        columns.Add(c => c.MiddleName).Titled("Middle Name");
-        columns.Add(c => c.Dob).Titled("DOB");
-        columns.Add(c => c.Sex).Titled("Sex");
-        columns.Add(c => c.Address).Titled("Address");
-        columns.Add(c => c.City).Titled("City");
-        columns.Add(c => c.State).Titled("State");
-        columns.Add(c => c.Zip).Titled("Zip");
-    })
-    
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/Students/StudentModule.js"></script>
+    <script type="text/javascript" src="~/Scripts/Students/StudentService.js"></script>
+    <script type="text/javascript" src="~/Scripts/Students/StudentController.js"></script>
+    <h2>GetAllStudents</h2>
+</head>
+<body>
+    <div ng-app="studentModule">
+        <div ng-controller="studentController">
+            <table>
+                <tr ng-repeat="student in students">
+                    <td>{{student.personId}}</td>
+                    <td>{{student.firstName}}</td>
+                    <td>{{student.lastName}}</td>
+                    <td>{{student.middleName}}</td>
+                    <td>{{student.sexName}}</td>
+                    <td>{{student.dob}}</td>
+                </tr>
+            </table>
+        </div>
     </div>
+</body>
+</html>

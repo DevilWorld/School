@@ -1,0 +1,21 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Test Page</title>
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+</head>
+<body ng-app>
+    <div>
+        <div ng-init="msgs = [{id: 1, name: 'RObert'}, {id: 2, name: 'Charles'}]"></div>
+
+        <div ng-repeat="msg in msgs">{{msg.name}}</div>
+    </div>
+</body>
+</html>

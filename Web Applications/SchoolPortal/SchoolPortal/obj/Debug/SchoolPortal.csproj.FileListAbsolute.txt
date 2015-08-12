@@ -134,7 +134,6 @@ C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\SchoolPortal\b
 C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\SchoolPortal\bin\Autofac.dll
 C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\SchoolPortal\bin\EntityFramework.dll
 C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\SchoolPortal\bin\EntityFramework.SqlServer.dll
-C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\SchoolPortal\bin\GridMvc.dll
 C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\SchoolPortal\bin\Microsoft.AspNet.Identity.Core.dll
 C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\SchoolPortal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\Dinesh\Source\Repos\School\Web Applications\SchoolPortal\SchoolPortal\bin\Microsoft.AspNet.Identity.Owin.dll
