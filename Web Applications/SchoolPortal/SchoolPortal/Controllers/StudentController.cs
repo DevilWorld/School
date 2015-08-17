@@ -25,9 +25,13 @@ namespace SchoolPortal.Controllers
         //
         // GET: /Student/
         //[HttpPost]
-        public ActionResult Student()
+        [HttpGet]
+        public ActionResult AddStudent()
         {
-            return View("AddStudent");
+            Person person = new Person();
+
+            //pass the empty model to the view in the get method
+            return View(person);
         }
         
         [HttpPost]
@@ -35,7 +39,7 @@ namespace SchoolPortal.Controllers
         {
             _repo.AddStudent(person);
 
-            return View();
+            return View("GetAllStudents");
         }
 
         [HttpGet]

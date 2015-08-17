@@ -12,17 +12,17 @@ namespace SchoolPortal.Infrastructure.Data.Mapping
 
             //Model property to Column mapping
             Property(c => c.PersonId).HasColumnName("PersonID");
-            Property(c => c.UserId).HasColumnName("UserID");
-            Property(c => c.FirstName).HasColumnName("FirstName");
-            Property(c => c.LastName).HasColumnName("LastName");
-            Property(c => c.MiddleName).HasColumnName("MiddleName");
-            Property(c => c.Sex).HasColumnName("Sex");
-            Property(c => c.Dob).HasColumnName("DOB");
-            Property(c => c.Active).HasColumnName("Active");
-            Property(c => c.CreatedBy).HasColumnName("CreatedBy");
-            Property(c => c.CreatedDate).HasColumnName("CreatedDate");
-            Property(c => c.ModifiedBy).HasColumnName("ModifiedBy");
-            Property(c => c.ModifiedDate).HasColumnName("ModifiedDate");
+            Property(c => c.UserId).HasColumnName("UserID").IsOptional();
+            Property(c => c.FirstName).HasColumnName("FirstName").IsOptional();
+            Property(c => c.LastName).HasColumnName("LastName").IsOptional();
+            Property(c => c.MiddleName).HasColumnName("MiddleName").IsOptional();
+            Property(c => c.Sex).HasColumnName("Sex").IsOptional();
+            Property(c => c.Dob).HasColumnName("DOB").IsOptional();
+            Property(c => c.Active).HasColumnName("Active").IsOptional();
+            Property(c => c.CreatedBy).HasColumnName("CreatedBy").IsOptional();
+            Property(c => c.CreatedDate).HasColumnName("CreatedDate").IsOptional();
+            Property(c => c.ModifiedBy).HasColumnName("ModifiedBy").IsOptional();
+            Property(c => c.ModifiedDate).HasColumnName("ModifiedDate").IsOptional();
         }
     }
 }
