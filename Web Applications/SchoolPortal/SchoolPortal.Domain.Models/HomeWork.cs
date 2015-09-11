@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace EntityTest.Models
+namespace SchoolPortal.Domain.Model
 {
-    class HomeWork      //Many-to-many relationship with additional fields
+    public class HomeWork      //Many-to-many relationship with additional fields
     {
         public int HomeWorkId { get; set; }
 

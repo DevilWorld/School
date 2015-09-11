@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace EntityTest.Models
+namespace SchoolPortal.Domain.Model
 {
-    class Teachers
+    public class Teachers
     {
         public int TeacherId { get; set; }
         public string FirstName { get; set; }

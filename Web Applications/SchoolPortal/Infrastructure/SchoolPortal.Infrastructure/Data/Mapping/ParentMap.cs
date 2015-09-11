@@ -1,8 +1,8 @@
 ﻿using System.Data.Entity.ModelConfiguration;
-using EntityTest.Models;
+using SchoolPortal.Domain.Model;
 using System.Data.Entity;
 
-namespace EntityTest.Mapper
+namespace SchoolPortal.Infrastructure.Data.Mapping
 {
     class ParentMap : EntityTypeConfiguration<Parent>
     {

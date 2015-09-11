@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using EntityTest.Models;
 
-namespace EntityTest.Models
+namespace SchoolPortal.Domain.Model
 {
-    class Parent
+    public class Parent
     {
         public int ParentId { get; set; }
         public string FirstName { get; set; }

@@ -52,7 +52,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Data\Mapping\PersonMap.cs" />
+    <Compile Include="Data\Mapping\AddressMap.cs" />
+    <Compile Include="Data\Mapping\ClassMap.cs" />
+    <Compile Include="Data\Mapping\HomeWorkMap.cs" />
+    <Compile Include="Data\Mapping\ParentMap.cs" />
+    <Compile Include="Data\Mapping\PrincipalAddressMap.cs" />
+    <Compile Include="Data\Mapping\PrincipalMap.cs" />
+    <Compile Include="Data\Mapping\SchoolMap.cs" />
+    <Compile Include="Data\Mapping\StudentClassMap.cs" />
+    <Compile Include="Data\Mapping\StudentMap.cs" />
+    <Compile Include="Data\Mapping\SubjectMap.cs" />
+    <Compile Include="Data\Mapping\TeacherMap.cs" />
     <Compile Include="EFDataContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\StudentRepository.cs" />

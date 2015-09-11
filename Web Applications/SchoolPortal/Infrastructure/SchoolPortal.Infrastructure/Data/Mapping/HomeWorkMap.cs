@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using EntityTest.Models;
+using SchoolPortal.Domain.Model;
 using System.Data.Entity.ModelConfiguration;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace EntityTest.Mapper
+namespace SchoolPortal.Infrastructure.Data.Mapping
 {
     class HomeWorkMap : EntityTypeConfiguration<HomeWork>
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Data.Entity.ModelConfiguration;
-using EntityTest.Models;
+using SchoolPortal.Domain.Model;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace EntityTest.Mapper
+namespace SchoolPortal.Infrastructure.Data.Mapping
 {
     class SchoolMap : EntityTypeConfiguration<School>
     {

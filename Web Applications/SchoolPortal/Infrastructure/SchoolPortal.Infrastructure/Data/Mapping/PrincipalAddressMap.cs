@@ -1,7 +1,7 @@
-﻿using EntityTest.Models;
+﻿using SchoolPortal.Domain.Model;
 using System.Data.Entity.ModelConfiguration;
 
-namespace EntityTest.Mapper
+namespace SchoolPortal.Infrastructure.Data.Mapping
 {
     class PrincipalAddressMap:EntityTypeConfiguration<PrincipalAddress>
     {

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EntityTest.Models
+namespace SchoolPortal.Domain.Model
 {
-    class Class
+    public class Class
     {
         public int ClassId { get; set; }
         public string ClassName { get; set; }
