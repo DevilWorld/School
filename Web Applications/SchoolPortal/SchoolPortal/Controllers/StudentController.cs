@@ -30,7 +30,8 @@ namespace SchoolPortal.Controllers
         {
             Person person = new Person();
 
-            //pass the empty model to the view in the get method
+            //pass the empty model to the view in the get method, WHEN THE REQUEST IS THROUGH THE URL. 
+            //Only when the request via submit button, then we need to call the post method with parameters
             return View(person);
         }
         
