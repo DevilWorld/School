@@ -13,6 +13,7 @@ namespace SchoolPortal.Infrastructure
 
         //public DbSet<Course> Courses { get; set; }
         //public DbSet<Person> Persons { get; set; }
+        public DbSet<Student> Students { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder model)
         {
