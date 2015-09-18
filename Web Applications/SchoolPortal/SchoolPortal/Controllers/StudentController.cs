@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Web.Mvc;
-using SchoolPortal.Domain.Models;
+using SchoolPortal.Domain.Model;
 using SchoolPortal.Domain.Repository;
 using SchoolPortal.Infrastructure.Repository;
 using Newtonsoft.Json;
@@ -28,33 +28,33 @@ namespace SchoolPortal.Controllers
         [HttpGet]
         public ActionResult AddStudent()
         {
-            Person person = new Person();
+            Student student = new Student();
 
-            //pass the empty model to the view in the get method, WHEN THE REQUEST IS THROUGH THE URL. 
+            //pass the empty model to the view in the get method, WHEN THE REQUEST IS THROUGH THE URL.
             //Only when the request via submit button, then we need to call the post method with parameters
-            return View(person);
+            return View(student);
         }
-        
+
         [HttpPost]
-        public ActionResult AddStudent(Person person)
+        public ActionResult AddStudent(Student student)
         {
-            _repo.AddStudent(person);
+            _repo.AddStudent(student);
 
             return View("GetAllStudents");
         }
 
-        [HttpGet]
-        public ActionResult GetStudentDetails()
-        {
-            var settings = new JsonSerializerSettings { ContractResolver = new CamelCasePropertyNamesContractResolver() };
-                        
-            var jsonResult = new ContentResult
-            {
-                Content = JsonConvert.SerializeObject(_repo.GetAllStudents(), settings),
-                ContentType = "application/json"
-            };
-            
-            return jsonResult;
-        }
+        //[HttpGet]
+        //public ActionResult GetStudentDetails()
+        //{
+        //    var settings = new JsonSerializerSettings { ContractResolver = new CamelCasePropertyNamesContractResolver() };
+
+        //    var jsonResult = new ContentResult
+        //    {
+        //        Content = JsonConvert.SerializeObject(_repo.GetAllStudents(), settings),
+        //        ContentType = "application/json"
+        //    };
+
+        //    return jsonResult;
+        //}
     }
 }

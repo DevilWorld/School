@@ -8,10 +8,10 @@ namespace SchoolPortal.Domain.Repository
 {
     public interface IStudentRepository
     {
-        //void AddStudent(Person person);
-        //void UpdateStudent(int intStudentId);
-        //void DeletStudent(int intStudentId);
-        //IEnumerable<Person> GetAllStudents();
-        //IEnumerable<Person> GetStudentDetails(int intStudentId);
+        void AddStudent(Student person);
+        void UpdateStudent(int intStudentId);
+        void DeletStudent(int intStudentId);
+        IEnumerable<Student> GetAllStudents();
+        IEnumerable<Student> GetStudentDetails(int intStudentId);
     }
 }
