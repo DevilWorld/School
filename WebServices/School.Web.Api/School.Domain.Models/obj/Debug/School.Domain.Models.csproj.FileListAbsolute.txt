@@ -1,5 +1,0 @@
-C:\Users\dinesh.venkatachalam\Source\Workspaces\School.WebServices\School.Web.Api\School.Domain.Models\bin\Debug\School.Domain.Models.dll
-C:\Users\dinesh.venkatachalam\Source\Workspaces\School.WebServices\School.Web.Api\School.Domain.Models\bin\Debug\School.Domain.Models.pdb
-C:\Users\dinesh.venkatachalam\Source\Workspaces\School.WebServices\School.Web.Api\School.Domain.Models\obj\Debug\School.Domain.Models.csprojResolveAssemblyReference.cache
-C:\Users\dinesh.venkatachalam\Source\Workspaces\School.WebServices\School.Web.Api\School.Domain.Models\obj\Debug\School.Domain.Models.dll
-C:\Users\dinesh.venkatachalam\Source\Workspaces\School.WebServices\School.Web.Api\School.Domain.Models\obj\Debug\School.Domain.Models.pdb
