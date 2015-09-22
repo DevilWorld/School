@@ -38,7 +38,11 @@ namespace SchoolPortal.Controllers
         [HttpPost]
         public ActionResult AddStudent(Student student)
         {
-            _repo.AddStudent(student);
+            if (ModelState.IsValid)
+            {
+                _repo.AddStudent(student);
+                _repo.Save();
+            }
 
             return View("GetAllStudents");
         }

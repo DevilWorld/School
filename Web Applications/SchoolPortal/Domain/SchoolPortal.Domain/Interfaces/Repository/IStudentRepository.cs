@@ -9,9 +9,10 @@ namespace SchoolPortal.Domain.Repository
     public interface IStudentRepository
     {
         void AddStudent(Student person);
-        void UpdateStudent(int intStudentId);
-        void DeletStudent(int intStudentId);
+        void UpdateStudent(Student student);
+        void DeletStudent(Student student);
         IEnumerable<Student> GetAllStudents();
         IEnumerable<Student> GetStudentDetails(int intStudentId);
+        void Save();
     }
 }
