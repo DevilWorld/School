@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using SchoolPortal.Domain.Repository;
 using SchoolPortal.Domain.Model;
@@ -17,26 +18,18 @@ namespace SchoolPortal.Infrastructure.Repository
             using (_context = new EFDataContext())
             {
                 _context.Students.Add(student);
-                try
-                {
-                    _context.SaveChanges();
-                }
-                catch (DbEntityValidationException dbex)
-                {
-                    foreach (var ex in dbex.EntityValidationErrors)
-                    {
-                        foreach (var e in ex.ValidationErrors)
-                        {
-                            var property = e.PropertyName;
-                            var error = e.ErrorMessage;
-                        }
-                    }
-                }
             }
         }
 
-        public void UpdateStudent(int intStudentId) { throw new NotImplementedException(); }
-        public void DeletStudent(int intStudentId) { throw new NotImplementedException(); }
+        public void UpdateStudent(Student student)
+        {
+            _context.Entry(student).State = EntityState.Modified;
+        }
+
+        public void DeletStudent(Student student)
+        {
+            _context.Entry(student).State = EntityState.Deleted;
+        }
         
         public IEnumerable<Student> GetAllStudents()
         {
@@ -46,6 +39,29 @@ namespace SchoolPortal.Infrastructure.Repository
                 return allPersons;
             }
         }
-        public IEnumerable<Student> GetStudentDetails(int intStudentId) { throw new NotImplementedException(); }
+
+        public IEnumerable<Student> GetStudentDetails(int intStudentId)
+        {
+            
+        }
+
+        public void Save()
+        {
+            try
+            {
+                _context.SaveChanges();
+            }
+            catch (DbEntityValidationException dbex)
+            {
+                foreach (var ex in dbex.EntityValidationErrors)
+                {
+                    foreach (var e in ex.ValidationErrors)
+                    {
+                        var property = e.PropertyName;
+                        var error = e.ErrorMessage;
+                    }
+                }
+            }
+        }
     }
 }
