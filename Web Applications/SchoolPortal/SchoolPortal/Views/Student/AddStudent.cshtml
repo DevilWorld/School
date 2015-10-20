@@ -1,0 +1,32 @@
+﻿@model SchoolPortal.Domain.Model.Student
+@{
+    ViewBag.Title = "AddStudent";
+}
+
+<h2>AddStudent</h2>
+<div >
+    <div class="outerContainer">
+        <div>
+            @Html.LabelFor(l => l.FirstName)
+        
+            @Html.TextBoxFor(t => t.FirstName)
+        </div>
+    </div>
+    <div>
+        <div>
+            @Html.LabelFor(l => l.MiddleName)
+        
+            @Html.TextBoxFor(t => t.MiddleName)
+        </div>
+    </div>
+    <div>
+        <div>
+            @Html.LabelFor(l => l.LastName)
+
+            @Html.TextBoxFor(t => t.LastName)
+        </div>
+    </div>
+</div>
+
+
+

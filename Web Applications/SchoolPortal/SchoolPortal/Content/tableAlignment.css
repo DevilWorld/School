@@ -1,0 +1,25 @@
+﻿body {
+    background-color: #444;
+    margin: 0;
+}    
+.outerContainer {
+     width: 1005px;
+     margin: 0 auto;
+}
+
+.leftColumn {
+    border: 1px solid white;
+    float: left;
+    min-height: 450px;
+    color: white;
+     width: 250px;
+     background-color: #111;
+}
+.rightColumn {
+    border: 1px solid white;
+    float: left;
+    min-height: 450px;
+    color: white;
+     width: 750px;
+     background-color: #777;
+}

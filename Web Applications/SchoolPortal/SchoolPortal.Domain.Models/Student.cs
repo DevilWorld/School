@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace SchoolPortal.Domain.Model
 {
     public class Student
     {
         public int StudentId { get; set; }
+        [Display(Name = "First Name")]
         public string FirstName { get; set; }
         public string MiddleName { get; set; }
         public string LastName { get; set; }

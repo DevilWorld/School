@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using SchoolPortal.Domain.Repository;
+using SchoolPortal.Domain.Interfaces.Repository;
 using SchoolPortal.Domain.Model;
 using System.Data.Entity.Validation;
 
@@ -42,7 +42,7 @@ namespace SchoolPortal.Infrastructure.Repository
 
         public IEnumerable<Student> GetStudentDetails(int intStudentId)
         {
-            
+            return new List<Student>();
         }
 
         public void Save()

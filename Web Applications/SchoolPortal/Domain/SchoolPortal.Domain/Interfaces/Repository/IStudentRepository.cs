@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using SchoolPortal.Domain.Model;
 
-namespace SchoolPortal.Domain.Repository
+namespace SchoolPortal.Domain.Interfaces.Repository
 {
     public interface IStudentRepository
     {
