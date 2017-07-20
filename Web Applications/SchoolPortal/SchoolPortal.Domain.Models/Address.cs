@@ -22,6 +22,6 @@ namespace SchoolPortal.Domain.Model
         public virtual ICollection<Parent> Parents { get; set; }        
 
         //Navigation property for Teacher
-        public virtual Teachers Teacher { get; set; }
+        public virtual Teacher Teachers { get; set; }
     }
 }

@@ -20,7 +20,7 @@ namespace SchoolPortal.Domain.Model
         //Navigation property
         public virtual ICollection<Parent> Parents { get; set; }
 
-        public virtual ICollection<StudentClasses> StudentClass { get; set; }
+        public virtual ICollection<StudentClass> StudentClasses { get; set; }
 
         public virtual ICollection<HomeWork> HomeWork { get; set; }
     }

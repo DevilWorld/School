@@ -15,9 +15,11 @@ namespace SchoolPortal.Domain.Model
         public string Gender { get; set; }
         public DateTime DOB { get; set; }        
 
+        //public int? SchoolId { get; set; }
+
         public PrincipalAddress PrincipalAddress { get; set; }
 
         //one to one for school with principal
-        public School School { get; set; }
+        //public School School { get; set; }
     }
 }

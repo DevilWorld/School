@@ -21,9 +21,11 @@ namespace SchoolPortal.Controllers
         // GET: Student
         public ActionResult Index()
         {
-            _studentRepository.GetAllStudents();
+            var students = _studentRepository.GetAllStudents();
 
-            return View();
+            //ViewData["students"] = students;
+
+            return View(students);
         }
 
         public ActionResult AddStudent()

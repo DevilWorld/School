@@ -23,7 +23,7 @@ namespace SchoolPortal
                 return controller;
             }
 
-            return new StudentController();
+            return new HomeController();
         }
 
         public SessionStateBehavior GetControllerSessionBehavior(RequestContext requestContext, string controllerName)

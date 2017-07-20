@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolPortal.Domain.Model
 {
-    public class StudentClasses
+    public class StudentClass
     {
         public int StudentClassId { get; set; }
         public int StudentId { get; set; }

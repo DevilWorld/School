@@ -18,11 +18,11 @@ namespace SchoolPortal.Domain.Model
         public int SubjectId { get; set; }
 
         //Navigation Property for Teacher
-        public virtual Teachers Teacher { get; set; }
+        public virtual Teacher Teacher { get; set; }
         //Navigation Property for Subject
         public virtual Subject Subject { get; set; }
 
-        public virtual ICollection<StudentClasses> StudentClass { get; set; }
+        public virtual ICollection<StudentClass> StudentClasses { get; set; }
 
         public virtual ICollection<HomeWork> HomeWork { get; set; }
     }

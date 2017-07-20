@@ -24,9 +24,9 @@ namespace SchoolPortal.Infrastructure.Data.Mapping
             Property(p => p.Zip).HasColumnName("Zip").IsOptional();
 
             //Relationships
-            HasRequired(p => p.Principal)               //1 to   0 or 1
-                .WithOptional(s => s.School)
-                .Map(m => m.MapKey("PrincipalId"));
+            //HasOptional(p => p.Principal)               //1 to   0 or 1
+            //    .WithMany().HasForeignKey(fk => fk.PrincipalId);
+                
         }
     }
 }

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SchoolPortal.Infrastructure.Data.Mapping
 {
-    class TeacherMap : EntityTypeConfiguration<Teachers>
+    class TeacherMap : EntityTypeConfiguration<Teacher>
     {
         public TeacherMap()
         {
@@ -25,11 +25,11 @@ namespace SchoolPortal.Infrastructure.Data.Mapping
 
             //Relationships                 1 to 0 or 1
             HasRequired(a => a.TeacherAddress)
-                .WithOptional(t => t.Teacher)
+                .WithOptional(t => t.Teachers)
                 .Map(m => m.MapKey("AddressId"));
 
             HasRequired(s => s.School)
-                .WithMany(t => t.Teacher)
+                .WithMany(t => t.Teachers)
                 .HasForeignKey(fk => fk.SchoolId);
         }
     }

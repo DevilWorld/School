@@ -16,7 +16,7 @@ namespace SchoolPortal
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}",
-                defaults: new { controller = "Student", action = "Index" }
+                defaults: new { controller = "Home", action = "Index" }
             );
         }
     }

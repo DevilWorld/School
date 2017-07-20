@@ -1,7 +1,19 @@
-﻿
+﻿@model IEnumerable<SchoolPortal.Domain.Model.Student>
+@using GridMvc.Html
 @{
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>List of Students</h2>
 
+<div class="row">
+    <div style="margin-left:100px;margin-right:100px;">
+        @Html.Grid(Model).Columns(column =>
+   {
+       column.Add(c => c.FirstName).Titled("First Name");
+       column.Add(c => c.LastName).Titled("Last Name").Filterable(true).Css("text-center");
+       column.Add(c => c.MiddleName);
+       column.Add(c => c.DOB);
+   }).WithPaging(3).Sortable(true);
+    </div>
+</div>

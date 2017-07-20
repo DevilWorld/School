@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SchoolPortal.Domain.Model
 {
-    public class Teachers
+    public class Teacher
     {
         public int TeacherId { get; set; }
         public string FirstName { get; set; }

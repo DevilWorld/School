@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SchoolPortal.Infrastructure.Data.Mapping
 {
-    class StudentClassMap:EntityTypeConfiguration<StudentClasses>
+    class StudentClassMap:EntityTypeConfiguration<StudentClass>
     {
         public StudentClassMap()
         {
@@ -19,11 +19,11 @@ namespace SchoolPortal.Infrastructure.Data.Mapping
             Property(p => p.ToDate).HasColumnName("ToDate");
 
             HasRequired(a => a.Student)
-                .WithMany(sc => sc.StudentClass)
+                .WithMany(sc => sc.StudentClasses)
                 .HasForeignKey(t => t.StudentId);
 
             HasRequired(c => c.Class)
-                .WithMany(sc => sc.StudentClass)
+                .WithMany(sc => sc.StudentClasses)
                 .HasForeignKey(fk => fk.ClassId);
 
         }
