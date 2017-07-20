@@ -1,4 +1,4 @@
-﻿
+﻿@model SchoolPortal.Models.LoginViewModel
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -6,11 +6,21 @@
 
 <h2>Index</h2>
 
-<div class="panel panel-primary">
+<div class="panel panel-info">
     <div class="panel-heading">Login</div>
     <div class="panel-body">
-        @Html.TextBox("userId")
-        @Html.TextBox("password")
+        <div class="row">
+            <div>
+                <span class="col-xs-2">@Html.LabelFor(m => m.UserId)</span>
+                <span class="col-xs-2">@Html.EditorFor(m => m.UserId)</span>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <span class="col-xs-2"> @Html.LabelFor(m => m.Password)</span>
+                <span class="col-xs-2"> @Html.EditorFor(m => m.Password)</span>
+            </div>
+        </div>
     </div>
 
 </div>
