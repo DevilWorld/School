@@ -13,6 +13,7 @@ namespace SchoolPortal.Infrastructure
 
         //public DbSet<Course> Courses { get; set; }
         //public DbSet<Person> Persons { get; set; }
+        public DbSet<User> Users { get; set; }
         public DbSet<Student> Students { get; set; }
         public DbSet<Teacher> Teachers { get; set; }
         public DbSet<StudentClass> StudentClasses { get; set; }
@@ -24,6 +25,7 @@ namespace SchoolPortal.Infrastructure
             Database.SetInitializer<EFDataContext>(null);
 
             //model.Configurations.Add(new PersonMap());
+            model.Configurations.Add(new UserMap());
             model.Configurations.Add(new StudentMap());
             model.Configurations.Add(new TeacherMap());
             model.Configurations.Add(new StudentClassMap());

@@ -1,26 +1,35 @@
 ﻿@model SchoolPortal.Models.LoginViewModel
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Login";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>Index</h2>
-
-<div class="panel panel-info">
-    <div class="panel-heading">Login</div>
-    <div class="panel-body">
-        <div class="row">
-            <div>
-                <span class="col-xs-2">@Html.LabelFor(m => m.UserId)</span>
-                <span class="col-xs-2">@Html.EditorFor(m => m.UserId)</span>
+<form method="post" action="/Home/Login/">
+    <div class="panel panel-info login-panel-center">
+        <div class="panel-heading">Login</div>
+        <div class="panel-body form-group">
+            <div class="login-control">
+                @Html.ValidationMessageFor(v=>v.UserId, "", new { @class = "text-danger" })
+                @Html.EditorFor(m => m.UserId, new {
+                           htmlAttributes = new {
+                               @class = "form-control",
+                               @placeholder = Html.DisplayNameFor(m => m.UserId)
+                            }
+                })
             </div>
-        </div>
-        <div class="row">
-            <div>
-                <span class="col-xs-2"> @Html.LabelFor(m => m.Password)</span>
-                <span class="col-xs-2"> @Html.EditorFor(m => m.Password)</span>
+            <div class="login-control">
+                @Html.ValidationMessageFor(v => v.Password, "", new { @class = "text-danger"})
+                @Html.EditorFor(m => m.Password, new {
+                           htmlAttributes = new {
+                               @class = "form-control",
+                               @placeholder = Html.DisplayNameFor(m => m.Password), @type = "password"
+                           }
+                })
+            </div>
+            <div class="text-right">
+                <input type="submit" value="Login" class="btn btn-success" />
             </div>
         </div>
     </div>
-
-</div>
+</form>

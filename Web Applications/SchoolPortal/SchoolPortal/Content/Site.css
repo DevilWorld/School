@@ -10,9 +10,20 @@
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
-input,
+/*input,
 select,
 textarea {
     max-width: 280px;
+}*/
+
+.login-panel-center {
+    margin-left: 30%;
+    margin-top: 15%;
+    width: 40%;
 }
 
+.login-control{
+    
+    margin-bottom: 15px;
+    
+}
