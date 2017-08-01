@@ -22,8 +22,13 @@ namespace SchoolPortal
 
                 return controller;
             }
+            else //(requestContext.RouteData.Values["Controller"].ToString() == "Home")
+            {
+                IUserRepository userRepository = new UserRepository();
+                var controller = new HomeController(userRepository);
 
-            return new HomeController();
+                return controller;
+            }            
         }
 
         public SessionStateBehavior GetControllerSessionBehavior(RequestContext requestContext, string controllerName)

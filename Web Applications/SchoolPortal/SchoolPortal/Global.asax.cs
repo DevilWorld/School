@@ -15,7 +15,7 @@ namespace SchoolPortal
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
 
-            //RegisterControllerFactory();
+            RegisterControllerFactory();
         }
 
         private void RegisterControllerFactory()
