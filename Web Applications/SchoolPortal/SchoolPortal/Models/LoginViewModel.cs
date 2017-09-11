@@ -11,7 +11,7 @@ namespace SchoolPortal.Models
     {
         [Display(Name = "User Id")]
         [Required(ErrorMessage = "This field is required")]
-        [Remote("")]
+        [Remote("CheckUserName", "Home", ErrorMessage = "User Id does not exists!", HttpMethod = "GET")]
         public string UserId { get; set; }
         [Display(Name = "Password")]
         [Required(ErrorMessage = "This field is required")]

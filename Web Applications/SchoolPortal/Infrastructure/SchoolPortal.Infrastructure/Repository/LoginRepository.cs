@@ -4,22 +4,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SchoolPortal.Domain.Model;
+using SchoolPortal.Domain.Interfaces.Repository;
 
 namespace SchoolPortal.Infrastructure.Repository
 {
-    public class LoginRepository
+    public class UserRepository : IUserRepository
     {
-        private readonly EFDataContext _context;
-
-        public LoginRepository()
-        {
-            _context = new EFDataContext();
-        }
+        EFDataContext _context;        
 
         public User GetUser(User user)
         {
-            return _context.Users
-                    .SingleOrDefault(x => x.UserId == user.UserId && x.Password == user.Password);
+            using (_context = new EFDataContext())
+            {
+                return _context.Users
+                        .SingleOrDefault(x => x.UserId == user.UserId && x.Password == user.Password);
+            }
+        }
+
+        public bool IsUserExists(string userId)
+        {
+            using (_context = new EFDataContext())
+            {
+                return _context.Users.Any(x => x.UserId.Equals(userId, StringComparison.CurrentCultureIgnoreCase));
+            }
         }
     }
 }
